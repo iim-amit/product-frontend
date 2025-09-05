@@ -1,10 +1,10 @@
 
 import React from 'react';
-import { SmallCard } from '@/components/ui/card-variants';
+//import { SmallCard } from '@/components/ui/card-variants';
 
-interface FeaturesCardProps {
-  features: string[];
-}
+// interface FeaturesCardProps {
+//   features: string[];
+// }
 
 // export const FeaturesCard: React.FC<FeaturesCardProps> = ({ features }) => (
 //   <SmallCard title="Features" className="bg-white">
@@ -15,7 +15,7 @@ interface FeaturesCardProps {
 //     </ul>
 //   </SmallCard>
 // );
-import { CheckCircle2, Star, MapPin, Package } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 
 import { motion } from "framer-motion";
 export const FeaturesCard: React.FC<{ features: string[] }> = ({ features }) => (

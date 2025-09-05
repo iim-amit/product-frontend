@@ -1,11 +1,11 @@
 import React from 'react';
-import { LargeCard } from '@/components/ui/card-variants';
+//import { LargeCard } from '@/components/ui/card-variants';
 import { Review } from '@/data/types';
 import { Star } from 'lucide-react';
 
-interface ReviewsCardProps {
-  reviews: Review[];
-}
+// interface ReviewsCardProps {
+//   reviews: Review[];
+// }
 
 // export const ReviewsCard: React.FC<ReviewsCardProps> = ({ reviews }) => (
 //   <LargeCard title="Reviews">

@@ -1,12 +1,12 @@
 
 import React from 'react';
-import { MediumCard } from '@/components/ui/card-variants';
+//import { MediumCard } from '@/components/ui/card-variants';
 import { Traceability } from '@/data/types';
 import { motion } from "framer-motion";
-import { CheckCircle2, Star, MapPin, Package } from "lucide-react";
-interface TraceabilityCardProps {
-  traceability: Traceability;
-}
+import {  MapPin, Package } from "lucide-react";
+// interface TraceabilityCardProps {
+//   traceability: Traceability;
+// }
 
 // export const TraceabilityCard: React.FC<TraceabilityCardProps> = ({ traceability }) => (
 //   <MediumCard title="Traceability">

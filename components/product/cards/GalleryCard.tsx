@@ -1,12 +1,12 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { LargeCard } from '@/components/ui/card-variants';
+//import { LargeCard } from '@/components/ui/card-variants';
 import { motion } from "framer-motion";
-interface GalleryCardProps {
-  gallery: string[];
-  productName: string;
-}
+// interface GalleryCardProps {
+//   gallery: string[];
+//   productName: string;
+// }
 
 export const GalleryCard: React.FC<{ gallery: string[]; productName: string }> = ({
   gallery,

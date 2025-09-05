@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { Star } from 'lucide-react';
+//import { Star } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import { Product } from '@/data/types';
 import { cn } from '@/lib/utils';

@@ -1,11 +1,11 @@
 import React from 'react';
-import { MediumCard } from '@/components/ui/card-variants';
+//import { MediumCard } from '@/components/ui/card-variants';
 import { Nutrition } from '@/data/types';
 import { motion } from "framer-motion";
 
-interface NutritionCardProps {
-  nutrition: Nutrition;
-}
+// interface NutritionCardProps {
+//   nutrition: Nutrition;
+// }
 
 export const NutritionCard: React.FC<{ nutrition: Nutrition }> = ({ nutrition }) => (
   <motion.div

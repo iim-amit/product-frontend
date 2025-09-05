@@ -1,15 +1,12 @@
-import React from 'react';
-import { cn } from '@/lib/utils';
+import React from "react";
+import { cn } from "@/lib/utils";
 
-interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {}
+type InputProps = React.InputHTMLAttributes<HTMLInputElement>;
 
 export const Input: React.FC<InputProps> = ({ className, ...props }) => {
   return (
     <input
-      className={cn(
-        'p-2 rounded-lg focus:outline-none',
-        className
-      )}
+      className={cn("p-2 rounded-lg focus:outline-none", className)}
       {...props}
     />
   );
